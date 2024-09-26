@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analog & Digital Clock</title>
+    <link rel="stylesheet" href="style.css">   
+</head>
+<body>
+    <div class="clock">
+        <div class="hour hand" id="hour"></div>
+        <div class="minute hand" id="minute"></div>
+        <div class="seconds hand" id="seconds"></div>
+        <div class="digital" id="digital">
+            <span id="hours">00</span>:<span id="minutes">00</span>:<span id="seconds">00</span>
+        </div>
+        <img id="clockSVG" src="clock_template.svg" alt="clock">
+    </div>
+    <button id="toggleBtn" class="toggle-button"></button>
+    <script src="app.js"></script>
+</body>
+</html>
